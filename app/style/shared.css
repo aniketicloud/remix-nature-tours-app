@@ -31,4 +31,13 @@ body {
     url("../../public/img/hero.webp");
   background-size: cover;
   background-position: top;
+
+  /* 
+  x     y
+  0     0
+  100%  0
+  100%  70%
+  0     100%  
+  */
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 }
