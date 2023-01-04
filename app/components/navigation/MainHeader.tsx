@@ -1,7 +1,9 @@
 export default function MainHeader() {
   return (
     <header className="header">
-      <p>Header Content</p>
+      <div className="logo-box">
+        <img src="img/logo-white.webp" alt="logo" className="logo" />
+      </div>
     </header>
   );
 }
