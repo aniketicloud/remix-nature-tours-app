@@ -8,7 +8,7 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
-import tailwindStyles from "./tailwind.css";
+// import tailwindStyles from "./tailwind.css";
 import sharedStyle from "~/style/shared.css";
 
 export const meta: MetaFunction = () => ({
@@ -47,6 +47,6 @@ export default function App() {
 }
 
 export const links: LinksFunction = () => [
-  { rel: "stylesheet", href: tailwindStyles },
+  // { rel: "stylesheet", href: tailwindStyles },
   { rel: "stylesheet", href: sharedStyle },
 ];
