@@ -59,6 +59,8 @@ body {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+
+  text-align: center;
 }
 
 .heading-primary {
@@ -66,6 +68,8 @@ body {
   text-transform: capitalize;
 
   backface-visibility: hidden;
+
+  margin-bottom: 20px;
 }
 .heading-primary-main {
   display: block;
@@ -112,3 +116,29 @@ body {
     transform: translate(0);
   }
 }
+
+/* button starts here */
+.btn:link {
+  text-decoration: none;
+  display: inline-block;
+  text-transform: capitalize;
+  border-radius: 100px;
+  padding: 10px 20px;
+
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #28b485;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  transition: all 0.2s;
+}
+.btn:active {
+  transform: translateY(-1px);
+
+}
+
+/* button ends here */
